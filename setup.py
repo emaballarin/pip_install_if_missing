@@ -4,13 +4,13 @@ DESCRIPTION = "Easily install Python packages if they are missing. Thought for C
 
 setup(
     name="pip_install_if_missing",
-    version="0.0.2",
+    version="0.0.3",
     description=DESCRIPTION,
     long_description=DESCRIPTION,
     keywords=["pip", "install", "missing", "dependency"],
     author="Emanuele Ballarin",
     author_email="emanuele@ballarin.cc",
-    url="https://pypi.org/project/pip_install_if_missing/",
+    url="https://github.com/emaballarin/pip_install_if_missing",
     license="MIT",
     classifiers=[
         "Development Status :: 4 - Beta",
