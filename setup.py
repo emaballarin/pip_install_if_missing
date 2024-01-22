@@ -4,7 +4,7 @@ DESCRIPTION = "Easily install Python packages if they are missing. Thought for C
 
 setup(
     name="pip_install_if_missing",
-    version="0.0.1",
+    version="0.0.2",
     description=DESCRIPTION,
     long_description=DESCRIPTION,
     keywords=["pip", "install", "missing", "dependency"],
