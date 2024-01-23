@@ -1,10 +1,13 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 from setuptools import setup
 
 DESCRIPTION = "Easily install Python packages if they are missing. Thought for Colab-like disposable environments."
 
 setup(
     name="pip_install_if_missing",
-    version="0.0.3",
+    version="0.0.4",
     description=DESCRIPTION,
     long_description=DESCRIPTION,
     keywords=["pip", "install", "missing", "dependency"],
@@ -21,5 +24,5 @@ setup(
     include_package_data=True,
     zip_safe=True,
     install_requires=[],
-    py_modules=["piim"],
+    packages=["piim"],
 )
