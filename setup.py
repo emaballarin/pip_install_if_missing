@@ -7,7 +7,7 @@ DESCRIPTION = "Easily install Python packages if they are missing. Thought for C
 
 setup(
     name="pip_install_if_missing",
-    version="0.0.4",
+    version="0.0.5",
     description=DESCRIPTION,
     long_description=DESCRIPTION,
     keywords=["pip", "install", "missing", "dependency"],
@@ -21,7 +21,7 @@ setup(
         "Programming Language :: Python :: 3",
     ],
     python_requires=">=3.8",
-    include_package_data=True,
+    include_package_data=False,
     zip_safe=True,
     install_requires=[],
     packages=["piim"],
